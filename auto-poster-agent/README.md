@@ -2,7 +2,6 @@
 🎨 AutoPoster Agent：基于多智能体协作的自动化海报生成系统  
 输入一句话，输出一张 PDF 海报。一个融合 LLM、Stable Diffusion、数据可视化与流程编排的 AI 应用项目。
 
-![Demo](assets/demo.png)
 
 一个轻量级但功能完整的 AI Agent 系统，能够根据用户一句话指令（如“为汉服社生成一张国风风格的招新海报”），自动完成：  
 ✅ 文案生成  
@@ -71,6 +70,8 @@ cd auto-poster-agent
 
 2. 安装依赖  
 ```bash
+conda create -n apa python=3.10
+conda activate apa
 pip install -r requirements.txt
 ```
 > 首次运行 sd_agent 会自动下载 Stable Diffusion v1.5 模型（约 4GB），请确保网络畅通。
@@ -142,14 +143,6 @@ auto-poster-agent/
 - 增加新风格模板
 - 添加 Web UI（如 Streamlit）
 - 支持更多输出格式（PPT、PNG）
-
-## 📄 许可证
-
-MIT License
-
-## 💬 联系我
-
-如有问题，欢迎通过 [GitHub Issues](https://github.com/yourname/auto-poster-agent/issues) 联系我，或发送邮件至：your-email@example.com
 
 ## ✅ 使用建议
 
