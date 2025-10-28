@@ -64,7 +64,7 @@ Workflow 引擎
 
 1. 克隆项目  
 ```bash
-git clone https://github.com/yourname/auto-poster-agent.git
+git clone git@github.com:Wuzheyuan456/RAG-Agent-T2I-Project.git
 cd auto-poster-agent
 ```
 
